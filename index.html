@@ -11,27 +11,103 @@
 
 <body>
     <!-- HEADER -->
-    <div>
+    <header>
         <div>
-            <h1 id="logo">moviOn</h1>
+            <div>
+                <h1 id="logo">moviOn</h1>
+            </div>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Search</a>
+                <a href="#">Blog</a>
+                <a href="#">Sign in</a>
+                <a href="#" class="highlight">Sign up</a>
+                <a href="#">🌝</a>
+            </nav>
         </div>
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">Search</a>
-            <a href="#">Blog</a>
-            <a href="#">Sign in</a>
-            <a href="#" class="highlight">Sign up</a>
-            <a href="#">🌝</a>
-        </nav>
-    </div>
-    <!-- .HEADER -->
+    </header>
     <!-- MAIN -->
-    <!--FORM-->
-    <!--.FORM-->
-    <!-- MAIN -->
-    <!-- SECTION -->
+    <main>
+        <form>
+            <input type="text" placeholder="Title">
+            <input type="text" placeholder="Celebs">
+            <input type="text" placeholder="Cinema">
+            <input type="text" placeholder="Keywords">
+            <div>
+                <p>Rating:</p>
+                <input type="number" placeholder="Minimum">
+                <input type="number" placeholder="Maximum">
+            </div>
+            <div>
+                <p>Showtime:</p>
+                <input type="date" value="today">
+                <input type="time" value="00:00">
+            </div>
+            <table>
+                <thead>
+                    <th>Genres:</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="checkbox" name="genres" value="action"> <label>Action</label></td>
+                        <td><input type="checkbox" name="genres" value="adventure"> <label>Adventure</label></td>
+                        <td><input type="checkbox" name="genres" value="animation"> <label>Animation</label></td>
+                        <td><input type="checkbox" name="genres" value="biography"> <label>Biography</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="genres" value="comedy"> <label>Comedy</label></td>
+                        <td><input type="checkbox" name="genres" value="crime"> <label>Crime</label></td>
+                        <td><input type="checkbox" name="genres" value="documentary"> <label>Documentary</label></td>
+                        <td><input type="checkbox" name="genres" value="drama"> <label>Drama</label></td>
+                    </tr>
 
-    <!--.SECTION-->
+                </tbody>
+            </table>
+
+
+
+            <table>
+                <thead>
+                    <th>Companies:</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="checkbox" name="companies" value="fox"> <label for="companies-1">20th Century
+                                Fox</label></td>
+                        <td><input type="checkbox" name="companies" value="columbia"> <label
+                                for="companies-2">Sony</label></td>
+                        <td><input type="checkbox" name="companies" value="dreamworks"> <label
+                                for="companies-3">DreamWorks</label></td>
+                        <td><input type="checkbox" name="companies" value="mgm"> <label for="companies-4">MGM</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="companies" value="paramount"> <label>Paramount</label></td>
+                        <td><input type="checkbox" name="companies" value="universal"> <label>Universal</label></td>
+                        <td><input type="checkbox" name="companies" value="disney"> <label>Walt Disney</label></td>
+                        <td><input type="checkbox" name="companies" value="warner"> <label>Warner Bros.</label></td>
+                    </tr>
+                </tbody>
+            </table>
+            <input type="text" placeholder="Location">
+            <input type="button" value="Search">
+        </form>
+    </main>
+    <!--SECTION-->
+    <section>
+        <div>
+            <h3>MOST POPULAR MOVIES</h3>
+            <div>
+                <a href="" class="left-arrow"><img src="" alt="left-arrow"></a>
+                <a href="" class="right-arrow"><img src="" alt="right-arrow"></a>
+                <a href=""><img src="" alt="Image 1"></a>
+                <a href=""><img src="" alt="Image 2"></a>
+                <a href=""><img src="" alt="Image 3"></a>
+                <a href=""><img src="" alt="Image 4"></a>
+            </div>
+        </div>
+    </section>
+    <!--FOOTER-->
     <footer>
         <div>
             <a href="contacto.html">Contacto</a>
